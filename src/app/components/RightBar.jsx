@@ -62,7 +62,7 @@ const RightBar = () => {
                 </div>
                   <div className="flex flex-col space-y-2">
                     <input className="border p-2 px-7 w-64   hover:outline-offset-1  hover:outline-blue-400  rounded-md bg-transparent text-white" placeholder="Phone, email, or username" />
-                    <input className="border p-2 px-7 w-64" placeholder="Password" />
+                    <input className="border p-2 px-7 w-64   hover:outline-offset-1  hover:outline-blue-400  rounded-md bg-transparent text-white" placeholder="Password" />
                   </div>
               </div>
             </form>
