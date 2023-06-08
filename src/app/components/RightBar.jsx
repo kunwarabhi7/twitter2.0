@@ -70,7 +70,7 @@ const RightBar = () => {
         </div>
         <p className="text-xs m-2 text-gray-500">
           By signing up, you agree to the
-          <span className="text-sky-500"> Terms of Service </span>
+          <span className="text-sky-500"> Terms of Service</span>
           and <br />
           <span className="text-sky-500">Privacy Policy</span>, including
           <span className="text-sky-500">Cookie Use.</span>
