@@ -54,16 +54,22 @@ const RightBar = () => {
                     Sign up with Apple
                   </p>
                 </button>
-                <div class="inline-flex items-center justify-center w-full">
-                  <hr class="w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700" />
-                  <div class="absolute px-4 -translate-x-1/2 bg-white left-1/2 dark:bg-gray-900">
+                <div className="inline-flex items-center justify-center w-full">
+                  <hr className="w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700" />
+                  <div className="absolute px-4 -translate-x-1/2 bg-white left-1/2 dark:bg-gray-900">
                     or
                   </div>
                 </div>
-                  <div className="flex flex-col space-y-2">
-                    <input className="border p-2 px-7 w-64   hover:outline-offset-1  hover:outline-blue-400  rounded-md bg-transparent text-white" placeholder="Phone, email, or username" />
-                    <input className="border p-2 px-7 w-64   hover:outline-offset-1  hover:outline-blue-400  rounded-md bg-transparent text-white" placeholder="Password" />
-                  </div>
+                <div className="flex flex-col space-y-2">
+                  <input
+                    className="border p-2 px-7 w-64   hover:outline-offset-1  hover:outline-blue-400  rounded-md bg-transparent text-white"
+                    placeholder="Phone, email, or username"
+                  />
+                  <input
+                    className="border p-2 px-7 w-64   hover:outline-offset-1  hover:outline-blue-400  rounded-md bg-transparent text-white"
+                    placeholder="Password"
+                  />
+                </div>
               </div>
             </form>
           </dialog>
